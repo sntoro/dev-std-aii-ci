@@ -4,43 +4,13 @@
 
 [Fat models, skinny controllers](#fat-models-skinny-controllers)
 
-[Validation](#validation)
-
-[Business logic should be in service class](#business-logic-should-be-in-service-class)
-
 [Don't repeat yourself (DRY)](#dont-repeat-yourself-dry)
 
-[Prefer to use Eloquent over using Query Builder and raw SQL queries. Prefer collections over arrays](#prefer-to-use-eloquent-over-using-query-builder-and-raw-sql-queries-prefer-collections-over-arrays)
+[Prefer to use Active record over using Query Builder and raw SQL queries](#prefer-to-use-active-record-over-using-query-builder-and-raw-sql-queries)
 
-[Mass assignment](#mass-assignment)
+[Do not execute queries in View](#do-not-execute-queries-in-view)
 
-[Do not execute queries in Blade templates and use eager loading (N + 1 problem)](#do-not-execute-queries-in-blade-templates-and-use-eager-loading-n--1-problem)
-
-[Chunk data for data-heavy tasks](#chunk-data-for-data-heavy-tasks)
-
-[Comment your code, but prefer descriptive method and variable names over comments](#comment-your-code-but-prefer-descriptive-method-and-variable-names-over-comments)
-
-[Do not put JS and CSS in Blade templates and do not put any HTML in PHP classes](#do-not-put-js-and-css-in-blade-templates-and-do-not-put-any-html-in-php-classes)
-
-[Use config and language files, constants instead of text in the code](#use-config-and-language-files-constants-instead-of-text-in-the-code)
-
-[Use standard Laravel tools accepted by community](#use-standard-laravel-tools-accepted-by-community)
-
-[Follow Laravel naming conventions](#follow-laravel-naming-conventions)
-
-[Convention over configuration](#convention-over-configuration)
-
-[Use shorter and more readable syntax where possible](#use-shorter-and-more-readable-syntax-where-possible)
-
-[Use IoC container or facades instead of new Class](#use-ioc-container-or-facades-instead-of-new-class)
-
-[Do not get data from the `.env` file directly](#do-not-get-data-from-the-env-file-directly)
-
-[Store dates in the standard format. Use accessors and mutators to modify date format](#store-dates-in-the-standard-format-use-accessors-and-mutators-to-modify-date-format)
-
-[Do not use DocBlocks](#do-not-use-docblocks)
-
-[Other good practices](#other-good-practices)
+[Follow Codeigniter naming conventions](#follow-codeigniter-naming-conventions)
 
 ### **Methods should do just one thing**
 
