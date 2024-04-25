@@ -256,10 +256,6 @@ foreach ($users as $user) {
 
 ### **Follow Codeigniter naming conventions**
 
-Follow [PSR standards](https://www.php-fig.org/psr/psr-12/).
-
-Also, follow naming conventions accepted by Laravel community:
-
 | What                                                                  | How                                                                       | Good                                    | Bad                                                             |
 | --------------------------------------------------------------------- | ------------------------------------------------------------------------- | --------------------------------------- | --------------------------------------------------------------- |
 | Controller                                                            | singular                                                                  | ArticleController                       | ~~ArticlesController~~                                          |
